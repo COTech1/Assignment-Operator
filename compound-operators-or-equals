@@ -4,6 +4,6 @@ using namespace std;
 int main ()
 {
   int a=10 , b= 5 ;
-  a ^= b ;             // equivalent to a^=b
+  a |= b ;             // equivalent to a|=b
   cout << a;
 }
