@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int a, b=100;
+  a = b;
+  a%=75;             // equivalent to a=a%b
+  cout << a;
+}
