@@ -4,6 +4,6 @@ using namespace std;
 int main ()
 {
   int a=2000;
-  a>>= 5;             // equivalent to a=a<<b
+  a>>= 5;             // equivalent to a=a>>b
   cout << a;
 }
