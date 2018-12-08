@@ -7,4 +7,5 @@ int main ()
   a = b;
   a+=5;             // equivalent to a=a+5
   cout << a;
+  
 }
